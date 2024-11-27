@@ -329,7 +329,10 @@ body {
     .rodape .atendimento .horarios {
         color: #b8860b;
         font-size: 1.1em;
-        text-align: start;
+    }
+
+    .rodape .atendimento .horarios:last-child {
+        text-indent: 10px;
     }
 }
 
