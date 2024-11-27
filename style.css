@@ -43,7 +43,6 @@ body {
     border-radius: 50%;
     box-shadow: 3px 3px 10px #ffffff5e;
     margin: 6px;
-    position: fixed;
 }
 
 #conteiner .perfil-profissao {
@@ -208,9 +207,6 @@ body {
 
     .cabecalho .menu-nav {
         width: 90%;
-        position: fixed;
-        top: 0;
-        right: 0;
     }
 
     .cabecalho .menu-nav ul {
@@ -318,8 +314,10 @@ body {
     .rodape .atendimento {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding-top: 15px;
+        gap: 10px;
+        
     }
 
     .rodape .atendimento h2 {
