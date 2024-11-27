@@ -318,7 +318,7 @@ body {
     .rodape .atendimento {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: space-evenly;
         align-items: start;
     }
 
